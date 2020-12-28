@@ -1,0 +1,48 @@
+
+	¿QUE ES UN ARRAY?
+
+		SON UNA LISTA DE ELEMENTOS QUE LE DAMOS ALGUN ORDEN, A LOS CUALES PODREMOS ACCEDER LUEGO.
+
+	¿COMO SE DEFINE?
+
+		UN ARRAY O ARREGLO, SE DEFINE UTILIZANDO BRACKETS ("[]"). 
+				
+						var array = [] <---- Array vacío.
+
+		UN ARREGLO PUEDE CONTENER CUALQUIER TIPO DE DATO.
+
+						var array = [1, 2, 3, 4] <--- Puede tener numeros, strings, funciones, etc.
+
+	
+	
+	ACCEDER A LOS ELEMENTOS
+	
+		PARA ACCEDER A LOS ELEMENTOS DE UN array, DEBEMOS PENSARLO DE ESTA FORMA:
+
+						var array = [1, 2, 3, 4]
+						             v  v  v  v
+							     0  1  2  3
+
+						array [0] => 1
+						array [3] => 4
+
+	
+		SI QUEREMOS SABER CUANTOS ELEMENTOS TIENE NUESTRO ARRAY, DEBEMOS COLOCAR "array.length" Y NOS VA A DECIR (EN NUMEROS)
+		CUANTOS ELEMENTOS TIENE DENTRO.
+
+	
+	¿COMO ASIGNAMOS VALORES?
+
+		USAR "var array = [x, 2x, 3x]" SE LO CONOCE COMO "ARREGLO LITERAL", YA QUE ESTAMOS DEFINIENDO ESTRICTAMENTE COMO QUEREMOS QUE SEA
+		NUESTRO ARREGLO.
+
+		HAY OTRAS FORMAS DE ASIGNAR VALORES A UN ARRAY. POR EJEMPLO: push Y pop.
+
+		- LA FUNCION push, COLOCA UN VALOR AL FINAL DE CADA ARREGLO. EJ: var array = []; array.push (1) => array [1]
+												 array.push (2) => array [1, 2]
+												 array.push (0) => array [1, 2, 0]
+
+		- LA FUNCION pop, QUITA UN VALOR AL FINAL DE CADA ARREGLO Y LO MUESTRA EN PANTALLA. EJ: array [1, 2, 3, 4]
+													array.pop => 4
+													array [1, 2, 3]
+ 
